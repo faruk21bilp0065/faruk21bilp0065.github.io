@@ -1,0 +1,165 @@
+/* styles.css */
+body {
+    line-height: 1.5; /* Satırlar arası boşluk büyüklüğü */
+    background-color: #2e3039;
+    color: #d9d9e2; /* Yazı rengini beyaz yapalım, ki okunabilir olsun */
+    font-family: Arial, sans-serif;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    margin: 0;
+}
+
+#headertext {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#fixed-div {
+    position: fixed;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%); /* 50% sağa kaydır */
+    width: 65%;
+    height: 75px;
+    background-color: #1e2026;
+    display: flex;
+    align-items: center; /* Dikeyde ortala */
+    justify-content: center; /* Yatayda ortala */
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+#maindiv {
+    overflow: auto; /* Kaydırma çubuklarını görünür kılma */
+    border: 1px solid #ccc; /* Sınırları belirginleştirme */
+    height: 750px;
+    width: 30%;
+    right: 50%;
+    transform: translateX(50%); /* 50% sağa kaydır */
+    display: flex;
+    flex-direction: column; /* Dikey sıralama */
+    position: fixed;
+    top: 10%;
+    padding: 25px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #1e2026;
+    border: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* Scroll çubuğu genişliği */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #17191f; /* Scroll çubuğu rengi */
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #23252c; /* Scroll çubuğu arka plan rengi */
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background-color: transparent !important; /* Scroll çubuğu arkasındaki beyazlık rengini gizle */
+  }
+  
+#maindiv li {
+    margin-bottom: 12px; /* Ufak bir alt boşluk ekleyin, istediğiniz değeri ayarlayabilirsiniz */
+}
+
+#paddingexp {
+    height: 115px;
+    width: 50%;
+    background-color: black;
+    border-radius: 8px;
+}
+
+#paddingexp2 {
+    color: black;
+    height: 110px;
+    width: 50%;
+    display: flex;
+    align-items: center; /* Dikeyde ortala */
+    justify-content: center; /* Yatayda ortala */
+    background-color: #b8c484;
+    border-radius: 8px;
+}
+
+#marginexp2 {
+    color: black;
+    height: 110px;
+    width: 50%;
+    display: flex;
+    align-items: center; /* Dikeyde ortala */
+    justify-content: center; /* Yatayda ortala */
+    background-color: #ae8359;
+    border-radius: 8px;
+}
+
+#marginpaddingexp2 {
+    color: black;
+    height: 75px;
+    width: 75%;
+    display: flex;
+    align-items: center; /* Dikeyde ortala */
+    justify-content: center; /* Yatayda ortala */
+    background-color: #b8c484;
+    border-radius: 8px;
+}
+
+#paddinginnerexp{
+    height: 50%;
+    width: 50%;
+    background-color: #8bb2bc;
+    display: flex;
+    align-items: center; /* Dikeyde ortala */
+    justify-content: center; /* Yatayda ortala */
+    border-radius: 8px;
+}
+
+#paddingexpheader {
+    display: flex;
+    align-items: center; /* Dikeyde ortala */
+    justify-content: left; /* Yatayda ortala */
+    height: 20px;
+    background-color: #343540;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#codeexp {
+    text-indent: 8px; /* Paragrafların başına 2 piksel boşluk bırak */
+}
+
+#codecolorgreen {
+    text-indent: 8px; /* Paragrafların başına 2 piksel boşluk bırak */
+    color: #00a67d;
+}
+
+#codecolorpurple {
+    color: #df3079;
+}
+
+#codeheader {
+    text-indent: 8px; /* Paragrafların başına 2 piksel boşluk bırak */
+    margin: 0;
+}
+
+#video{
+    overflow: auto; /* Kaydırma çubuklarını görünür kılma */
+    left: 5%;
+    display: flex;
+    flex-direction: column; /* Dikey sıralama */
+    position: fixed;
+    top: 25%;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #1e2026;
+    border: 0px;
+}

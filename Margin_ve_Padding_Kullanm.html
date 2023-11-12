@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>   
+<head>
+    <!-- Genel html bilgileri -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSS'de margin ve padding nasıl kullanır.">
+    <meta name="keywords" content="HTML, CSS, MARGIN, PADDING">
+
+    <!-- Site başlığı -->
+    <title>Ödev</title>
+
+    <!-- CSS dosyasını bağlama -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="fixed-div">
+        <p id="headertext">Faruk Bölükbaşıoğlu - 21bilp0065 / Margin ve Padding Kullanımı Konulu Ödev</p>
+    </div>
+    <div name = "maindiv" id = "maindiv">
+        <h1>CSS Margin ve Padding Nedir?</h1>
+        <p>Genel olarak padding ve margin, HTML ve CSS gibi web için geliştirmede kullanılan terimlerdir. Her ikisi de bir elementin düzeni ve arayüzü üzerindeki konumunu belirlemeye yardımcı olan özelliklerdir, ancak farklı amaçlara hizmet ederler.</p>
+
+        <h2>Padding</h2>
+        <ul>
+            <li>Padding bir elementin kenarlığı ile içeriği arasındaki boşluktur yani kısaca iç boşluktur.</li>
+            <li>Örneğin, bir kutunun içeriği ile sınırları arasındaki boşluğu belirlemek için padding kullanılır.</li>
+            <div name = "paddingexp" id = "paddingexp">
+                <div name = "paddingexpheader" id = "paddingexpheader">
+                    <p name = "codeheader" id = "codeheader">css ./styles.css</p>
+                </div>
+                <p name = "codeexp" id = "codeexp">div {</p>
+                <p name = "codeexp" id = "codeexp"><span id = "codecolorgreen">padding</span>: <span id="codecolorpurple">20px</span>;</p>
+                <p name = "codeexp" id = "codeexp">}</p>               
+            </div>
+            <br>
+            <li>Bir div için padding büyüdüğünde içerikler içeri doğru küçülür.</li>
+            <div id = "paddingexp2">  
+                <div id="paddinginnerexp">
+                    <p>Element içeriği</p>
+                </div>         
+            </div>
+        </ul>
+
+        <h2>Margin</h2>
+        <ul>
+            <li>Margin, bir elementin kenarlığının (border) etrafındaki boşluktur.</li>
+            <li>Örneğin, bir kutunun diğer elementlerden uzaklaşma mesafesini belirlemek için margin kullanılır.</li>
+            <div name = "paddingexp" id = "paddingexp">
+                <div name = "paddingexpheader" id = "paddingexpheader">
+                    <p name = "codeheader" id = "codeheader">css ./styles.css</p>
+                </div>
+                <p name = "codeexp" id = "codeexp">div {</p>
+                    <p name = "codeexp" id = "codeexp"><span id = "codecolorgreen">margin</span>: <span id="codecolorpurple">20px</span>;</p>
+                <p name = "codeexp" id = "codeexp">}</p>               
+            </div>
+            <br>
+            <li>Bir div için margin büyüdüğünde div elementinin içindeki içeriklerin konumları için bir değişim olmaz.</li>
+            <div id = "marginexp2">
+                <div id = "marginpaddingexp2">  
+                    <div id="paddinginnerexp">
+                        <p>Element içeriği</p>
+                    </div>         
+                </div>
+            </div>
+        </ul>
+    </div>
+    <div id="video">
+        <h2>Kodun konu anlatımı</h2>
+        <iframe width="400" height="350" frameborder="0" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </div>
+</body>
+
+</html>
